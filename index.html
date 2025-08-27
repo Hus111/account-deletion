@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Account Deletion – Dev of Beirut (Mall Tech & Amhaz Telecom)</title>
+  <meta name="description" content="Instructions for requesting account and data deletion for Mall Tech and Amhaz Telecom by Dev of Beirut.">
+  <style>
+    :root{
+      --bg:#0f172a;        /* slate-900 */
+      --card:#111827;      /* gray-900 */
+      --muted:#94a3b8;     /* slate-400 */
+      --text:#e5e7eb;      /* gray-200 */
+      --accent:#ffde59;    /* brand yellow */
+      --danger:#ef4444;    /* red-500 */
+      --ok:#22c55e;        /* green-500 */
+      --border:#1f2937;    /* gray-800 */
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,'Noto Sans',sans-serif;
+      background:linear-gradient(180deg,var(--bg),#0b1220);
+      color:var(--text);
+      line-height:1.6;
+    }
+    .container{
+      max-width:900px;
+      margin:0 auto;
+      padding:24px;
+    }
+    header{
+      background:rgba(17,24,39,.7);
+      border:1px solid var(--border);
+      border-radius:16px;
+      padding:24px;
+      backdrop-filter: blur(6px);
+      margin-bottom:20px;
+    }
+    h1{
+      margin:0 0 8px;
+      font-size:clamp(1.4rem,3.5vw,2rem);
+      letter-spacing:.2px;
+    }
+    .badge{
+      display:inline-block;
+      background:var(--accent);
+      color:#111;
+      font-weight:600;
+      padding:6px 10px;
+      border-radius:999px;
+      font-size:.85rem;
+    }
+    section{
+      background:rgba(17,24,39,.55);
+      border:1px solid var(--border);
+      border-radius:16px;
+      padding:20px;
+      margin:16px 0;
+    }
+    h2{
+      font-size:1.15rem;
+      margin:0 0 12px;
+    }
+    ol, ul{ padding-left:22px; }
+    a{ color:var(--accent); text-decoration:none; }
+    a:hover{ text-decoration:underline; }
+    .callout{
+      border-left:4px solid var(--accent);
+      background:rgba(255,222,89,.08);
+      color:#fff;
+      padding:12px 14px;
+      border-radius:12px;
+      margin:12px 0;
+    }
+    .danger{ border-left-color:var(--danger); background:rgba(239,68,68,.08); }
+    .ok{ border-left-color:var(--ok); background:rgba(34,197,94,.08); }
+    .grid{
+      display:grid;
+      gap:14px;
+    }
+    @media(min-width:820px){
+      .grid{ grid-template-columns:1fr 1fr; }
+    }
+    .small{ color:var(--muted); font-size:.95rem; }
+    footer{
+      color:var(--muted);
+      font-size:.9rem;
+      margin-top:24px;
+    }
+    .list-compact li{ margin:6px 0; }
+    .kbd{
+      display:inline-block;
+      padding:1px 6px;
+      border-radius:6px;
+      border:1px solid var(--border);
+      background:#0b1220;
+      font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace;
+      font-size:.9em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="badge">Dev of Beirut</span>
+      <h1>Account & Data Deletion</h1>
+      <div class="small">
+        This page applies to the apps <strong>Mall Tech</strong> and <strong>Amhaz Telecom</strong> published by <strong>Dev of Beirut</strong>.
+        It explains how to delete your account and what happens to your data.
+      </div>
+    </header>
+
+    <section id="in-app">
+      <h2>How to Delete Your Account (in the app)</h2>
+      <div class="grid">
+        <div>
+          <h3>From the Home page</h3>
+          <ol class="list-compact">
+            <li>Open the menu <span class="kbd">☰</span> (drawer).</li>
+            <li>Tap <strong>Delete Account</strong> (button highlighted in red).</li>
+            <li>Confirm by pressing <strong>Yes</strong> in the prompt.</li>
+          </ol>
+        </div>
+        <div>
+          <h3>From the Store page</h3>
+          <ol class="list-compact">
+            <li>Tap the <strong>Settings</strong> icon.</li>
+            <li>Tap <strong>Delete Account</strong> (button highlighted in red).</li>
+            <li>Confirm by pressing <strong>Yes</strong> in the prompt.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="callout ok">
+        Once confirmed, you will be signed out and your deletion request will be queued immediately.
+      </div>
+    </section>
+
+    <section id="email">
+      <h2>Can't access the app?</h2>
+      <p>You can request deletion by email:</p>
+      <ol class="list-compact">
+        <li>Email us at <a href="mailto:bob899193@gmail.com">bob899193@gmail.com</a> with the subject <em>“Delete My Account – Mall Tech / Amhaz Telecom”</em>.</li>
+        <li>Include the account email or phone number used to sign in.</li>
+        <li>We may ask you to complete a quick verification to protect your account.</li>
+      </ol>
+    </section>
+
+    <section id="what-deleted">
+      <h2>What data is deleted?</h2>
+      <ul class="list-compact">
+        <li>Profile information (name, email address, phone number, profile photo).</li>
+        <li>Account identifiers (user ID / UID) and authentication tokens.</li>
+        <li>In‑app data (balances, purchase/recharge history, saved preferences).</li>
+        <li>Device/notification tokens (used for push notifications).</li>
+      </ul>
+      <div class="callout danger">
+        Deletion is permanent and cannot be undone.
+      </div>
+    </section>
+
+    <section id="what-retained">
+      <h2>What may be retained (and why)?</h2>
+      <p>To meet legal, security, and anti‑fraud obligations, some records may be retained for a limited period and then deleted or irreversibly anonymized:</p>
+      <ul class="list-compact">
+        <li>Transaction receipts/IDs and anti‑fraud logs (retained up to <strong>90 days</strong>).</li>
+        <li>Server backup snapshots (purged within <strong>30 days</strong>).</li>
+        <li>Customer support emails or tickets you sent to us (retained as required by law or until your request is resolved).</li>
+      </ul>
+      <p class="small">We do <strong>not</strong> retain your profile or sign‑in credentials after account deletion.</p>
+    </section>
+
+    <section id="timelines">
+      <h2>How long does deletion take?</h2>
+      <ul class="list-compact">
+        <li><strong>Active records</strong> are removed immediately after confirmation.</li>
+        <li><strong>Backups</strong> are purged automatically within <strong>30 days</strong>.</li>
+        <li>Any legally required logs are kept for up to <strong>90 days</strong> and then deleted or anonymized.</li>
+      </ul>
+    </section>
+
+    <section id="partial">
+      <h2>Partial deletion</h2>
+      <p>We currently do <strong>not</strong> offer partial data deletion without deleting the account.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Publisher: <strong>Dev of Beirut</strong><br>
+        Email: <a href="mailto:bob899193@gmail.com">bob899193@gmail.com</a>
+      </p>
+    </section>
+
+    <footer>
+      Last updated: 27 Aug 2025
+    </footer>
+  </div>
+</body>
+</html>
